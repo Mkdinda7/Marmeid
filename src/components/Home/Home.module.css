@@ -185,7 +185,6 @@
 @media screen and (max-width:600px) {
     .Swiper_Slider_wrapper{
         width: 100%;
-    
         img{
             height: 700px;
         }
@@ -209,7 +208,7 @@
     }
 
     .home_content h1{
-        font-size: 35px !important;
+        font-size: 30px !important;
     }
 
     .Booking_container{

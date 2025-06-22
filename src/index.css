@@ -71,7 +71,7 @@ button:hover::after{
 @media screen and (max-width:767px) {
     button{
         height: 45px;
-        width: 120px;
+        width: 150px;
         font-size: 12px;
     }
 }
@@ -397,18 +397,39 @@ button:hover::after{
 /* NAVBAR SECTION ENDS */
 
 
-.upper-header {
+.upper-banner {
   position: relative;
+    background: 
+        linear-gradient(rgba(131,131,131,0.5), rgba(131,131,131,0.1)),
+        url(./assets/header-banner.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 0 12%;
+
+    span{
+        color: white;
+        font-size: 40px;
+    }
+    h2{
+        color: white;
+    }
 }
 
-.upper-header .home-area {
+.upper-banner .home-area {
   position: relative;
   display: inline-block;
   color: white; 
   text-decoration: none;
 }
 
-.upper-header .home-area::after {
+.upper-banner .home-area::after {
   content: '';
   position: absolute;
   bottom: -5px;
@@ -420,7 +441,7 @@ button:hover::after{
   transition: all 0.6s ease;
 }
 
-.upper-header .home-area:hover::after {
+.upper-banner .home-area:hover::after {
   width: 100%;
 }
 

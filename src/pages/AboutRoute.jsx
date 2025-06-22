@@ -8,7 +8,7 @@ const AboutRoute = () => {
   return (
     <div className="aboutRoute">
       {/* Breadcrumb / Header Section */}
-      <div className="upper-header">
+      <div className="upper-banner" style={{marginTop: "40px"}}>
         <Link to='/'>
           <span className='home-area'>Home</span>
         </Link>

@@ -1,5 +1,3 @@
-// src/data/roomData.js
-
 import roomImg1 from '../assets/room-detail-1-1-900x560.jpg';
 import roomImg2 from '../assets/room-detail-2-900x560.jpg';
 import roomImg3 from '../assets/room-detail-3-900x560.jpg';
@@ -13,8 +11,6 @@ import roomImg10 from '../assets/room-10.png';
 import roomImg11 from '../assets/room-11.png';
 import roomImg12 from '../assets/room-12.png';
 
-// You can reuse or mix the same images if you don't have 12 different ones
-
 export const roomData = [
   {
     id: 1,
@@ -23,7 +19,7 @@ export const roomData = [
     name: 'Soldier Room',
     type: 'Double Bed',
     guests: 1,
-    description: 'Idea alone run challenge cell Congress. Half black kid receive should hot. Increase officer time leader hit. Behavior compare choice seem. Catch prepare power night important.',
+    description: 'This cozy and stylish room is perfect for solo travelers seeking tranquility. With a plush double bed, warm lighting, and elegant interiors, you’ll feel at home the moment you enter. Ideal for rest after a busy day, it includes fast WiFi, air-conditioning, and 24/7 room service. The serene ambiance ensures a peaceful sleep. Whether work or leisure, your comfort is our priority.',
     amenities: ['Room Service', 'AC', 'WiFi'],
     price: '$72',
   },
@@ -34,7 +30,7 @@ export const roomData = [
     name: 'Car Room',
     type: 'Double Bed',
     guests: 4,
-    description: 'Government police could oil against company. Relationship middle positive particular well store decide.',
+    description: 'Designed for families or group travelers, this spacious room offers comfort and functionality. It features a cozy double bed, artistic wall décor, and a minibar stocked with refreshments. Enjoy moments on the balcony or unwind with complimentary WiFi. The room provides a calm retreat after exploring the city. It’s all you need for a memorable group stay.',
     amenities: ['Balcony', 'WiFi', 'Mini Bar'],
     price: '$79',
   },
@@ -45,7 +41,7 @@ export const roomData = [
     name: 'Imagine Room',
     type: 'King Bed',
     guests: 1,
-    description: 'Southern stay cup industry ability letter line. Ability painting possible north.',
+    description: 'Perfect for solo guests seeking a premium experience, this room features a luxurious king bed, refined furnishings, and soft lighting. Natural light floods the space through large windows. With a private balcony, minibar, and smart TV, it’s designed to make your stay both relaxing and inspiring. Business or leisure, this is your haven.',
     amenities: ['Balcony', 'AC', 'Mini Bar', 'TV', 'Mini Fridge'],
     price: '$68',
   },
@@ -56,7 +52,7 @@ export const roomData = [
     name: 'Every Room',
     type: 'Queen Bed',
     guests: 4,
-    description: 'Nice left member since soldier pattern. Rich bill cold small care.',
+    description: 'Bright and welcoming, this room boasts a queen-size bed, ideal for families or friends. The blend of wooden textures and modern design elements creates a warm, inviting environment. Watch your favorite shows on the flat-screen TV or lounge by the balcony with a cup of tea. A relaxing escape for groups with elegant comforts.',
     amenities: ['AC', 'Balcony', 'TV', 'Room Service', 'WiFi'],
     price: '$80',
   },
@@ -67,7 +63,7 @@ export const roomData = [
     name: 'Nearly Room',
     type: 'King Bed',
     guests: 4,
-    description: 'Half stage speak seek gas. Employee write six discover future.',
+    description: 'Offering space and sophistication, this room features a king-size bed, modern furnishings, and tranquil surroundings. It’s ideal for couples or small families looking for peace and privacy. The sleek design includes a cozy seating area and entertainment amenities. Unwind in a peaceful setting designed to pamper and rejuvenate.',
     amenities: ['WiFi', 'Mini Bar', 'TV'],
     price: '$40',
   },
@@ -78,7 +74,7 @@ export const roomData = [
     name: 'Want Room',
     type: 'King Bed',
     guests: 4,
-    description: 'Great system sound policy dog. Become mean glass. Short huge pay owner serve.',
+    description: 'This elegant room is crafted for both comfort and convenience. Featuring a king bed and work desk, it’s perfect for business travelers or families. The warm tones and calming design set the mood for relaxation. Enjoy evening movies or take advantage of our 24-hour room service. A premium experience awaits you here.',
     amenities: ['Mini Fridge', 'Room Service', 'TV'],
     price: '$49',
   },
@@ -89,7 +85,7 @@ export const roomData = [
     name: 'Similar Room',
     type: 'Twin Bed',
     guests: 3,
-    description: 'Him free financial record five. Hard gas service method similar.',
+    description: 'Equipped with twin beds, this room is ideal for friends or siblings traveling together. It includes a clean, minimal layout with all modern essentials like air conditioning and high-speed internet. Whether you are relaxing after a tour or watching a late-night movie, this space delivers simplicity with style.',
     amenities: ['Room Service', 'WiFi', 'AC'],
     price: '$57',
   },
@@ -100,7 +96,7 @@ export const roomData = [
     name: 'Southern Room',
     type: 'King Bed',
     guests: 3,
-    description: 'Drug pull window feeling agency. Imagine avoid until interesting.',
+    description: 'Warm colors and luxurious textures define this spacious room. Featuring a king-size bed and a sunny private balcony, it’s perfect for a romantic getaway or a peaceful retreat. Guests enjoy high-end comforts like a smart TV, minibar, and WiFi. It is a soothing place to reconnect with comfort and calm.',
     amenities: ['Room Service', 'WiFi', 'TV', 'AC', 'Balcony'],
     price: '$54',
   },
@@ -111,7 +107,7 @@ export const roomData = [
     name: 'Police Room',
     type: 'King Bed',
     guests: 2,
-    description: 'Bed fund wrong support letter. Anything three radio billion anything occur go.',
+    description: 'With striking design and relaxing vibes, this king-size room is a favorite for couples. The balcony opens to charming views, while the room offers complete privacy and quiet. Amenities like a minibar, AC, and high-speed internet elevate your comfort. A boutique experience from start to finish.',
     amenities: ['AC', 'Balcony', 'Mini Bar', 'WiFi'],
     price: '$70',
   },
@@ -122,7 +118,7 @@ export const roomData = [
     name: 'Among Room',
     type: 'King Bed',
     guests: 4,
-    description: 'Two young toward their political unit specific onto. Worry model contain ok.',
+    description: 'This family-friendly room balances modern features and homely charm. It includes a king bed, additional seating, a fridge, and room service. Designed for relaxation and quality time, it caters to long-stay guests or families seeking both comfort and value. The perfect spot to make holiday memories.',
     amenities: ['Mini Fridge', 'WiFi', 'Balcony', 'Room Service', 'AC'],
     price: '$45',
   },
@@ -133,7 +129,7 @@ export const roomData = [
     name: 'On Room',
     type: 'Twin Bed',
     guests: 1,
-    description: 'Heart job sit. Matter eat model show value. Talk smile continue.',
+    description: 'This compact room is tailor-made for solo guests who appreciate peace and practicality. It features a twin bed, stylish furnishings, and a smart TV. Enjoy a productive work corner, free WiFi, and quick access to all hotel facilities. A cozy base for business or a quick getaway.',
     amenities: ['WiFi', 'TV', 'Room Service'],
     price: '$77',
   },
@@ -144,7 +140,7 @@ export const roomData = [
     name: 'When Room',
     type: 'Queen Bed',
     guests: 4,
-    description: 'Until fear voice who different happy truth. They customer medical subject.',
+    description: 'Step into a well-appointed room with a queen-sized bed, soft linens, and chic decor. Spacious enough for small groups or families, it includes a mini fridge, WiFi, and full room service. Whether you are staying for a weekend or a week, it provides warmth, function, and style all in one.',
     amenities: ['TV', 'Mini Fridge', 'AC', 'WiFi', 'Room Service'],
     price: '$49',
   },

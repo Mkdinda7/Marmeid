@@ -6,7 +6,7 @@ const ContactRoute = () => {
   return (
     <div className="contactRoute">
       {/* Breadcrumb Section */}
-      <div className="upper-header" style={{ marginTop: '70px' }}>
+      <div className="upper-banner" style={{ marginTop: '70px' }}>
         <Link to='/'><span className='home-area'>Home</span></Link>
         <span style={{ margin: '0 10px' }}>/</span>
         <h2>Contact Us</h2>

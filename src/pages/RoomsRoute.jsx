@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 const RoomsRoute = () => {
   return (
     <div className="roomsRoute">
-      <div className="upper-header" style={{ marginTop: '70px', display: 'flex', alignItems: 'center', gap: '10px' }}>
+      <div className="upper-banner" style={{ marginTop: '70px', display: 'flex', alignItems: 'center', gap: '10px' }}>
         <Link to='/'><span className='home-area'>Home</span></Link>
         <span>/</span>
         <h2>Our Rooms</h2>
