@@ -361,6 +361,7 @@ button:hover::after{
         
         a{
             color: #fff;
+            font-size: larger;
         }
     }
     
@@ -373,6 +374,10 @@ button:hover::after{
 
 @media screen and (max-width:600px) {
     .topNav .left_side span:nth-of-type(2){
+        display: none;
+    }
+
+    .navBtns button{
         display: none;
     }
 }
