@@ -1,0 +1,152 @@
+.contact_wrapper{
+    flex-direction: row;
+}
+
+
+.reservation{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background: url(./../../assets/contact-form-img.jpg) no-repeat;
+    background-size: cover;
+    min-height: 50vh;
+    position: relative;
+    z-index: 1;
+    outline: 2px dashed var(--primary-color);
+    outline-offset: -10px;
+}
+
+.reservation::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(79, 47, 8, 0.85);
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+.reservation h2{
+    font-size: 35px;
+    color: #fff;
+    margin-bottom: 10px;
+    width: 70%;
+}
+
+.reservation img{
+    width: 80px;
+}
+
+.form{
+    width: 58%;
+}
+
+.form h2{
+    font-size: 40px;
+}
+.form  p{
+    width: 60%;
+    margin-bottom: 20px ;
+}
+
+.input_container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.input_wrapper{
+    height: 45px;
+    width: 100%;
+   margin: 10px 0;
+}
+
+input, textarea{
+    height: 100%;
+    width: 100%;
+    padding: 0 20px;
+    font-size: 16px;
+    outline: none;
+}
+
+textarea{
+    height: 150px;
+    padding: 10px 20px;
+}
+
+.form button{
+    margin-top: 20px;
+}
+
+
+
+
+@media screen and (max-width:1200px) {
+    .reservation, .form{
+        width: 48%;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .contact_wrapper{
+        display: flex;
+        align-items: center;
+        flex-direction: column !important;
+        justify-content: center;
+    }
+
+    .reservation{
+        width: 70%;
+        height: 500px;
+
+        h2{
+            font-size: 30px;
+        }
+    }
+
+    .form{
+        width: 100%;
+        h2{
+            font-size: 35px;
+        }
+    }
+
+    .form p{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:767px){
+    .reservation{
+        width: 80%;
+    }
+
+    .form h2{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width:576px){
+    .reservation{
+        width: 100%;
+
+        h2{
+            font-size: 25px;
+        }
+    }
+}
+
+@media screen and (max-width:480px){
+    .reservation button{
+        display: block !important;
+    }
+    .form h2{
+        font-size: 25px;
+    }
+}

@@ -1,0 +1,79 @@
+.staff_wrapper{
+    width: 100%;
+     display: flex;
+    gap: 20px;
+     flex-direction: column; 
+    text-align: center; 
+}
+
+.staff_title h2{
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.staff_title p{
+    text-align: center;
+    justify-content: center;
+}
+.staff_card{
+    width: 100%;
+    border: 1px solid var(--primary-color);
+    padding-bottom: 5px;
+    padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+    img{
+        width: 100%;
+       transition: all 0.3s ease;
+       cursor: pointer;
+        &:hover{
+            transform: scale(1.1);
+        }
+    }
+}
+
+.staff_details{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    color: var(--primary-color);
+    height: 60px;
+    margin-top: 20px;
+}
+
+.staff_details h3{
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.staff_details p{
+    font-size: 18px;
+}
+
+
+@media screen and (max-width:991px) {
+    .staff_title h2{
+        font-size: 30px;
+        font-weight: 500;
+    }
+}
+
+/* @media screen and (max-width:767px) {
+    .staff_card{
+        height: 450px;
+        width: 80%;
+
+        img{
+            height: 80%;
+        }
+    }
+} */
+
+
+@media screen and (max-width:576px) {
+    .staff_title h2{
+        font-size: 25px;
+        font-weight: 500;
+    }
+}

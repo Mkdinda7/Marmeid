@@ -1,0 +1,86 @@
+.testy_title{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+.testy_title h2{
+    font-size: 45px;
+}
+
+.testy_title p{
+    width: 50%;
+}
+
+.testy_wrapper{
+flex-direction: column;
+}
+
+.card{
+    backdrop-filter: blur();
+    background-color: rgb(251, 241, 232);
+    padding: 30px;
+    outline: 2px dashed var(--primary-color);
+    outline-offset: -10px;
+    width: 98% !important;
+
+    p{
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+}
+
+
+
+.card .profile{
+    display: flex;
+    gap: 15px;
+    position: relative;
+     
+    h2{
+        font-weight: 500;
+
+        span{
+            display: block;
+            margin-top: 4px;
+            font-size: 14px;
+        }
+    }
+
+    img{
+        height: 45px;
+        width: 45px;
+        border-radius: 50%;
+    }
+}
+
+.card .profile i{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 40px;
+    color: var(--primary-color);
+}
+
+@media screen and (max-width:991px){
+    .testy_title h2{
+        font-size: 35px;
+    }
+    .testy_title p{
+        width: 80%;
+    }  
+}
+
+
+
+@media screen and (max-width:567px){
+    .testy_title h2{
+        font-size: 25px;
+    }
+
+    .testy_title p{
+        width: 100%;
+    }    
+}
