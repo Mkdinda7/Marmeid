@@ -172,6 +172,16 @@
     }
 }
 
+@media screen and (max-width:776px) {
+    .Swiper_Slider_wrapper {
+        height: 600px;
+
+        Swiper {
+            height: max-content;
+        }
+    }
+}
+
 @media screen and (max-width:600px) {
     .Swiper_Slider_wrapper{
         width: 100%;
@@ -179,6 +189,10 @@
         img{
             height: 700px;
         }
+    }
+
+      .rating_container{
+        display: none;
     }
 
     .home_content{
@@ -189,7 +203,7 @@
         height: auto !important;
         width: 90%;
         transform: translate(5%);
-
+        margin-top: 20px;
         outline: 5px double var(--primary-color);
         outline-offset: -20px;
     }

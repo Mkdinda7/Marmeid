@@ -79,7 +79,7 @@ button:hover::after{
 
 @media screen and (max-width:480px) {
     button{
-        display: none !important;
+        /* display: none !important; */
     }
 }
 
@@ -427,12 +427,13 @@ button:hover::after{
 
 @media screen and (max-width:776px) {
     .room-info{
+        width: 100%;
         flex-direction: column !important;
-        align-items: center;
+        padding: 20px 20px !important;
 
         .room-price{
             font-size: 20px;
-            width: 100%;
+            width: 100% !important;
         }
     }
 }
